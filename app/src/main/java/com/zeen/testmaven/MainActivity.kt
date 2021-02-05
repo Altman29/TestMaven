@@ -8,4 +8,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    fun appMethod1(): Int {
+        return 1
+    }
+
+
+    fun appMethod2(): Int {
+        return 2
+    }
+
+
+    fun appMethod3(): Int {
+        return 3
+    }
 }
